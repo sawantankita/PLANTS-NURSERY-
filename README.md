@@ -6,10 +6,15 @@ This Project of Plants Nursery named as ‘Plants Paradise’ is an e-commerce w
 The User Guide Page provide necessary details about each and every type of plants such as Potting the plants, watering methods, watering  time, Air condition ,temperature, benefits of buying an specific type of plants etc.The About us page provide Links to all social media sites making communication more efficient.
 
 Summary of Contents: 
+
 •	Login Page
+
 •	Home Page
+
 •	Collection Page > Products Page > Register Page > Payment Section
+
 •	User Guide Page
+
 •	About Page
 
 Features:
