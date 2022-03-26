@@ -5,6 +5,8 @@ This Project of Plants Nursery named as ‘Plants Paradise’ is an e-commerce w
  In Collection Page the plants as classified according to their types such as Air purifying Plants, Indoor Plants, Kitchen Plants. After selecting a plant to be purchased the user has to fill the shipping details such as delivery date, time, address etc. Then the user heads to Payment section.
 The User Guide Page provide necessary details about each and every type of plants such as Potting the plants, watering methods, watering  time, Air condition ,temperature, benefits of buying an specific type of plants etc.The About us page provide Links to all social media sites making communication more efficient.
 
+
+
 Summary of Contents: 
 
 •	Login Page
@@ -17,16 +19,30 @@ Summary of Contents:
 
 •	About Page
 
+
+
 Features:
+
 •	User  Friendly Interface
+
 •	Multiple Login options
+
 •	Exact Images of every product
+
 •	Multiple categories of plants for more convenience
+
 •	Manual for plants
+
 •	Efficient Buying
+
 •	Secure  online transaction
 
+
 Conclusion:
- Prepared an efficient e-commerce website  using concept of Form Events, Regular Expression, Control Statements, Event handling, Slideshow, hover effects .
+
+ Prepared an efficient e-commerce website  using concept of Form Events, Regular Expression, Control Statements, Event handling, Slideshow, hover effects.
+ 
  Check here: https://sawantankita.github.io/PLANTS-NURSERY-/
+ 
  Vedio: https://drive.google.com/file/d/1369OUoDxFMncllMACgT_-5W0CVGxomqc/view?usp=sharing
+ 
