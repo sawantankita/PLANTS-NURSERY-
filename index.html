@@ -1,0 +1,66 @@
+
+<html>
+<head><title>Login Page</title>
+<script>
+	function fun2()
+	{
+		window.open("https://www.facebook.com/")
+	}
+	function fun1()
+	{
+		var name=document.getElementById("t1").value	
+		var pass=document.getElementById("t2").value
+			if(name=="Ankita Sawant")
+			{
+				if(pass=="12345"){
+				alert("Login successful")
+				window.open("slideshow.html");
+				}
+
+				else{
+				alert("Wrong password")
+				}
+			}
+			else{
+			alert("Wrong Username and password")
+			}
+			
+	}
+</script>
+</head>
+
+<body style="background-image:url('loginbg3.jpeg');">
+<form>
+<style>
+	img{display:block;margin-left:150px;margin-top:10px;}
+	.bn{border:none;background-color:#4dff4d; text-align:center;margin-left:100px; width:330px; height:30px;margin-top:50px} 
+	.bn2{color:white;border:none;background-color:#0099ff; text-align:center;margin-left:100px; width:330px; height:30px;margin-top:05px} 
+	
+	.d1{height:250px;
+		width:500px;
+		height:600px;
+		border:black;
+		border-radius:10px;
+		border-style:inset;
+		position:absolute;
+		}
+</style>
+<b><p style="margin-left:600px;margin-top:50px;font-size:20px;font-family:Century Gothic;color:black";>Welcome To Plants Paradise
+	
+<div class="d1" style="margin-left:500px;margin-top:10px;">
+	<img src="logo2.png" width:200px height:100px;>	
+
+	<b><p style="margin-left:100px;margin-top:0px;font-size:25px;font-family:Century Gothic;color:black";>USERNAME :
+	 <input type="text" id="t1" ></p></b>
+
+	<b><p style="margin-left:100px;margin-top:50px;font-size:25px;font-family:Century Gothic;color:black";>PASSWORD : 
+	<input type="Password" id="t2"></p>
+	
+	<button onclick="fun1()" class="bn"><b>Login</button>
+	<p style="margin-left:150px;margin-top:10px;font-size:15px;font-family:Century Gothic" >Not a member ? Sign up</p>
+	<p style="margin-left:150px;margin-top:0px;font-size:15px;font-family:Century Gothic" >-----------OR-------------</p>
+	<button onclick="fun2()" class="bn2"><b>Continue with Facebook</button>
+</div>
+</form>
+</body>
+</html>

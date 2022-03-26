@@ -1,0 +1,120 @@
+
+
+<html>
+       <title>PAY NOW</title>
+       <style>
+	.btn{border:none;
+		background-color:yellow;
+		text-align:center;
+		margin-left:120px; 
+		width:300px; 
+		margin-top:100px; 
+		height:30px;
+		margin-top:100px;
+		font-family:Century Gothic;
+		font-weight:bold;} 
+	.d1{height:250px;
+		width:900px;
+		height:500px;
+		border:black;
+		border-radius:10px;
+		border-style:inset;
+		position:absolute;
+		}
+	.d2{height:250px;
+		width:300px;
+		height:500px;
+		border:black;
+		border-radius:5px;
+		border-style:inset;
+		position:absolute;
+		}
+	.bn{border:none;
+		text-align:center;
+		width:300px; 
+		height:50px;
+		font-family:Century Gothic;
+		 background-color: inherit;
+		 float: left; 
+		outline: none; 
+		padding: 14px 16px; 
+		transition: 0.3s; 
+		 font-size: 17px; 
+		color:#fff;
+	}
+	.bn1:hover 
+	{
+		  background-color: #0099cc;
+	}
+	
+	</style>
+
+	<body style="background-color:grey;background-image:url('paynowbg.PNG');">
+	<div class="d1" style="margin-left:130px;margin-top:80px;">
+	<center>		
+<br><br><h3><label style="padding-left:50px;font-size:large;font-weight:bold;font-family:Century Gothic;">CARD NUMBER : </label><input required type="text" id="tt1" placeholder="Enter valid card number" size="30"> 
+	<br><br><h3><label style="padding-left:50px;font-size:large;font-weight:bold;font-family:Century Gothic;">EXPIRATION DATE : </label><input required type="date" size="30" > 
+	<br><br><h3><label style="padding-left:50px;font-size:large;font-weight:bold;font-family:Century Gothic;"> CVV/CVC : </label><input required type="text" placeholder="Enter valid code" size="30" > 
+<br><br><h3><label style="padding-left:50px;font-size:large;font-weight:bold;font-family:Century Gothic;">CARD HOLDER NAME : </label><input required type="text" placeholder="Enter valid name" size="30" > 
+	<br><br><h3><label style="padding-left:50px;font-size:large;font-weight:bold;font-family:Century Gothic;">AMOUNT TO BE PAID : </label><input required type="text" placeholder="RS.000" size="30" > 
+	<br><br><input type="button" class="btn bn1" onclick="f7()" value="SUBMIT"></center>		
+	</div>
+
+
+	<div class="d2" style="margin-left:1200px;margin-top:80px;">
+	<label style="padding-left:100px;font-size:30px;font-weight:bold;font-family:Century Gothic;">PAY VIA : </label>
+	<button onclick="f1()" class="bn bn1" style="margin-top:0px;"> <-- CREDIT CARD </button>
+	<button onclick="f2()" class="bn bn1" style="margin-top:0px;"> <--DEBIT CARD </button>
+	<button onclick="f3()" class="bn bn1" style="margin-top:0px;"> <-- DEBIT CARD+ATM PIN</button>
+	<button onclick="f4()"  class="bn bn1" style="margin-top:0px;"> <-- WALLET/CASH CARDS </button>
+	<button onclick="f5()" class="bn bn1" style="margin-top:0px;"> <-- QR CODE </button>
+	<button onclick="f6()" class="bn bn1" style="margin-top:0px;"> <-- UPI </button>
+	<form action="slideshow.html">
+	<button onclick="f8()" class="bn bn1" style="margin-top:0px;" data-close> EXIT </button></form>
+	
+		
+	</div>
+</body>
+</html>
+<script>
+	function f1()
+	{
+		alert("You are currently on credit card page")
+	}
+	function f2()
+	{
+		alert("Debit card method is currently unavailable")
+	}
+	function f3()
+	{
+		alert("Debit card+ ATM pin method is currently unavailable")
+	}
+	function f4()
+	{
+		alert("Wallet/cash card method is currently unavailable")
+	}
+	function f5()
+	{
+		alert("QR code method is currently unavailable")
+	}
+	function f6()
+	{
+		alert("UPI method is currently unavailable")
+	}
+	function f7()
+	{
+		var str=document.getElementById("tt1").value;
+		var res=str.match(/^(\d{4}\s){2}(\d){4}$/);
+		if(res!=null)
+		{alert("Payment Successful")}
+		else
+		{alert("Invalid Card Number")}
+		
+		
+	}
+	function f8()
+	{
+		alert("Thank you for shopping...");
+		document.body.style.display="none";
+	}
+</script>
